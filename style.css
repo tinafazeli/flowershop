@@ -50,7 +50,7 @@ body{
     border:1px solid #7D0371;
     border-radius: 10px;
 }
-.navbarSec .navbarItem ul li .item:hover{
+.navbarSec .navbarItem ul li tem:hover{
     color: #fff;
     background-color: #7D0371;
 }
@@ -72,7 +72,7 @@ body{
     padding: 6px;
     text-align: center;
 }
-.navbarSec .navbarItem .btn:hover{
+.navbarSec .navbarItembtn:hover{
     background-color: #7c3876c9;
     border: #7c3876c9;
 }
@@ -103,7 +103,7 @@ body{
     width: 150px;
     
 }
-.navbarSec .navbarSec2 table tr td:hover{
+.navbarSec .navbarSec2 table  td:hover{
     color: #b6b6b6;
     font-size: large;
 }
@@ -161,11 +161,13 @@ body{
     width: 100%;
     background-color: #D2D1F1;
     margin-top: 0px;
-    margin-bottom: 6px;
+    margin-bottom: 0px;
     padding-right: 50px;
+    padding-bottom: 4px;
     color: #7D0371;
     font-size: 1.4rem;
 }
+
 .top-sellers-footer .line{
     position: relative;
     top: 270px;
@@ -463,6 +465,8 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* index special discount start here  */
+
 .special-discount{
     position: relative;
     bottom: 200px;
@@ -608,19 +612,21 @@ body{
     border-bottom-style:solid;
 }
 
-.footer p{
+/* index footer start */
+
+.footer1 p{
     display: inline;
 }
-.footer .icon{
+.footer1 .icon{
     margin-right: 30px;
 }
-.footer p svg{
+.footer1 p svg{
     color: #585757;
     width: 50px;
     height: 50px;
     margin-left: 20px;
 }
-.footer .detail{
+.footer1 .detail{
     color: #585757;
     position: relative;
     bottom: 20px;
@@ -676,7 +682,7 @@ body{
     text-align: center;
     display: none;
 }
-.About-nav .navbarItem .btn:hover{
+.About-nav .navbarItembtn:hover{
     background-color: #7c3876c9;
     color: #ffff;
     border: #7c3876c9;

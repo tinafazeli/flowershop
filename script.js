@@ -11,33 +11,6 @@ function Target2(){
     likee.style.display='none';
     likebtn.style.display='inline';
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // buy btn 
 
 var buybtn1=document.getElementById('buybtn1');
