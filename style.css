@@ -301,7 +301,7 @@ body{
     box-sizing: border-box;
     display: flexbox;
 }
-.gift button{
+.gift .next-btn1{
     position: relative;
     top: 130px;
     right: 310px;
@@ -312,111 +312,88 @@ body{
     border-color: #7D0371;
     background-color: #7D0371;
 }
-.gift .item-sec{
-    border-radius: 300px;
-    width: 160px;
-    height: 160px;
-    margin-left: 130px;
+.next-btn2{
     position: relative;
-    top: 10px;
-    background-color: #D2D1F1;
-    display:inline-flex;
-}
-.gift .item-sec img{
-    width: 160px !important;
-    height: 210px !important;
-    position: relative;
-    bottom: 80px;
-    left: 10px;
-    transform: rotate(150deg);
-}
-
-.gift .item-sec .it2{
-    width: 160px;
-    height: 160px !important;
-    border-radius: 400px;
-    background-color: #D2D1F1;
-    position: relative;
-    bottom: 160px;
-    left: 10px !important;
-    transform: rotate(125deg);
-}
-.gift .item-sec .item3{
-    width: 160px;
-    height: 160px;
-    background-color: #D2D1F1;
-    border-radius: 500px;
-    position: relative;
-    bottom: 280px;
-    right: 70px;
-    display: inline-flex;
-}
-.gift .item-sec .item3 img{
-    width: 140px !important;
-    height: 220px !important;
-    padding: 7px;
-    position: relative;
-    bottom: 100px;
-    left: 20px;
-    transform: rotate(85deg);
-}
-.gift .item-sec .item4{
-    width: 160px;
-    height: 160px;
-    background-color: #D2D1F1;
-    border-radius: 500px;
-    position: relative;
-    bottom: 210px;
-    right: 210px;
-    display: inline-flex;
-}
-.gift .item-sec .item4 img{
-    width: 140px !important;
-    height: 180px !important;
-    padding: 7px;
-    position: relative;
-    bottom: 100px;
-    left: 20px;
-    transform: rotate(55deg);
-}
-.gift .item-sec .item5{
-    width: 160px;
-    height: 160px;
-    background-color: #D2D1F1;
-    border-radius: 500px;
-    position: relative;
-    bottom: 120px;
-    right: 330px;
-    display: inline-flex;
-}
-.gift .item-sec .item5 img{
-    width: 150px !important;
-    height: 200px !important;
-    padding: 7px;
-    position: relative;
-    bottom: 120px;
-    left: 10px;
-    transform: rotate(10deg);
-}
-.gift .item-sec .item5 button{
-    position: relative;
-    top: 35px;
-    right: 260px;
-    width: 50px !important;
-    height: 50px !important;
+    bottom: 43.3rem;
+    left:2rem;
+    width: 50px;
+    height: 50px;
     border-radius: 100px;
+    color: #ffffff;
     border-color: #7D0371;
     background-color: #7D0371;
 }
-.gift .item-sec .item5 button svg{
-    padding: 20px;
-    color: #ffffff;
-    width: 35px !important;
-    height: 35px !important;
-    position: relative;
-    bottom: 15px;
-    right: 22px;
+
+
+.slideshow{
+    margin-left: 20%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
+.crousel{
+    width: 30rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slid{
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    background-color: #D2D1F1;
+    border-radius:100%;
+}
+.slid:nth-child(1){
+    right:13rem;
+}
+.slid:nth-child(2){
+    left: 18rem;
+    bottom: 6rem;
+}
+.slid:nth-child(3){
+    top: -20rem;
+    left: 22rem;
+}
+.slid:nth-child(4){
+    bottom: 30rem;
+    left: 17rem;
+}
+.slid:nth-child(5){
+    right: 14rem;
+    bottom: 36rem;
+}
+.slid:nth-child(6){
+    right: 25.2rem;
+    bottom: 36rem;
+}
+.slid:nth-child(7){
+    bottom: 28rem;
+    right: 34rem;
+}
+.slid:nth-child(8){
+    bottom: 16rem;
+    right: 36rem;
+}
+.slid:nth-child(9){
+    right: 34rem;
+    bottom: 6rem;
+}
+.slid:nth-child(10){
+    right:25rem;
+}
+.slid img{
+    width: 150px !important;
+    height: 200px !important;
+    position: relative;
+    bottom: 7rem;
+}
+
 
 .gift .half-circle img{
     width: 350px;
