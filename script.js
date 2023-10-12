@@ -1,5 +1,5 @@
 // like btn 
-var likebtn= document.getElementById('like');
+var likebtn= document.getElementById ('like');
 var likee=document.getElementById('like2');
 function Target1(){
     likebtn.style.display='none';
@@ -23,4 +23,30 @@ function Buy1(){
 function Buy2(){
     buybtn2.style.display='none';
     buybtn1.style.display='inline';
+}
+
+//slide show
+
+// var carousel=document.getElementsByClassName(".slid");
+
+// function interval(){
+//     carousel.style.transform="rotate(90deg)";
+//     // intervalId=setInterval(()=>{
+//     //     carousel.style.rotate="90deg";
+//     // },2000);
+// };
+
+
+var rotated = false;
+let i=340;
+document.getElementById('butt').onclick = function() {
+    var div = document.getElementById('crousel');
+    deg=i++
+    div.style.webkitTransform = 'rotate('+deg+'deg)'; 
+    div.style.mozTransform    = 'rotate('+deg+'deg)'; 
+    div.style.msTransform     = 'rotate('+deg+'deg)'; 
+    div.style.oTransform      = 'rotate('+deg+'deg)'; 
+    div.style.transform       = 'rotate('+deg+'deg)'; 
+
+    rotated = !rotated;
 }
