@@ -27,26 +27,21 @@ function Buy2(){
 
 //slide show
 
-// var carousel=document.getElementsByClassName(".slid");
+const carousel=document.querySelector(".carusel");
+const slide =document.querySelectorAll(".slide");
 
-// function interval(){
-//     carousel.style.transform="rotate(90deg)";
-//     // intervalId=setInterval(()=>{
-//     //     carousel.style.rotate="90deg";
-//     // },2000);
-// };
+let i = 0,
+  j = 1,
+  intervalId;
 
+const intervalFn=()=>{
+    intervalId= setInterval(()=>{
+        carousel.style.rotate=`-${++i * 90}deg`;
+        document.querySelector(".slide.active").classList.remove("active");
+        const activeSlide = document.querySelector(`.slide:nth-child(${++j})`);
+        activeSlide.classList.add("active");
 
-var rotated = false;
-let i=340;
-document.getElementById('butt').onclick = function() {
-    var div = document.getElementById('crousel');
-    deg=i++
-    div.style.webkitTransform = 'rotate('+deg+'deg)'; 
-    div.style.mozTransform    = 'rotate('+deg+'deg)'; 
-    div.style.msTransform     = 'rotate('+deg+'deg)'; 
-    div.style.oTransform      = 'rotate('+deg+'deg)'; 
-    div.style.transform       = 'rotate('+deg+'deg)'; 
-
-    rotated = !rotated;
-}
+        j === 9 && (j = 0);
+    },4000)
+};
+intervalFn();
